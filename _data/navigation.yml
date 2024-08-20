@@ -1,0 +1,6 @@
+- name: 主页
+  link: /index.html
+- name: 论文
+  link: /paper.html
+- name: 荣誉
+  link: /honor.html
