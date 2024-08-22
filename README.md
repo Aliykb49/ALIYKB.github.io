@@ -1,10 +1,10 @@
-# KaiboYang.github.io
+# kaibo-yang.github.io
 
 杨凯博的个人主页
 
 ## 架构说明
 
-
+如果在github中设置/docs文件夹，则后续的所有文件应以该文件夹为根目录
 
 
 
