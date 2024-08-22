@@ -2,13 +2,36 @@
 
 杨凯博的个人主页
 
+## 网页搭建过程
+
+1. 在Github中创建仓库，仓库命名为`username.github.io`，`username`可替换，最好为Github账号名称，最好为小写
+
+- 仓库设置为公开
+- 在仓库的**Settings/Pages**选项中，设置Branch为main/(root)
+
+![1](./images/README.assets/image-20240822180521595.png)
+
+
+
 ## 架构说明
 
 如果在github中设置/docs文件夹，则后续的所有文件应以该文件夹为根目录
 
+本文档中设置为/root文件夹
 
+### /css
 
-## ！废弃建立过程（使用jeykll）
+样式文件夹，存放网页中所使用的各种样式
+
+### /imags
+
+图片文件夹，存放网页中所使用的图片
+
+#### /base
+
+存放网页的一些基础元素
+
+## ~~！废弃建立过程（使用jeykll）~~
 
 1. 安装Ruby
 
