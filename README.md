@@ -9,9 +9,11 @@
 - 仓库设置为公开
 - 在仓库的**Settings/Pages**选项中，设置Branch为main/(root)
 
-![1](./images/README.assets/image-20240822180521595.png)
+<img src="./images/README.assets/image-20240822180521595.png">
 
-
+2. 在本地中使用`git clone`下载，并在文件夹中添加文件`index.html`（网站将从`index.html`进入）
+3. 在`index.html`中按照HTML语言编写网站内容，详细查看[HTML基础内容](./files/HTML)
+4. 使用git操作上传文件，随后可看到网址内容更新
 
 ## 架构说明
 
@@ -23,6 +25,10 @@
 
 样式文件夹，存放网页中所使用的各种样式
 
+### /files
+
+存放文件
+
 ### /imags
 
 图片文件夹，存放网页中所使用的图片
@@ -30,6 +36,10 @@
 #### /base
 
 存放网页的一些基础元素
+
+#### /README.assets
+
+存放README.md中的一些图片文件
 
 ## ~~！废弃建立过程（使用jeykll）~~
 

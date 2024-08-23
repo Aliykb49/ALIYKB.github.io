@@ -20,32 +20,48 @@
 </head>
 
 <body>
-    <!-- CSS -->
-    <div class="header">
-        <a href="./index.html">主页</a>
-        <a href="./paper.html">论文</a>
-        <a href="./honor.html">荣誉</a>
-        <hr />
+    <!-- 导航栏 -->
+    <div>
+        <header class="header">
+            <nav>
+                <ul>
+                    <li></li>
+                    <li>ALIYKB</li>
+                    <li></li>
+                    <li><a href="./index.html">主页</a></li>
+                    <li><a href="./paper.html">论文</a></li>
+                    <li><a href="./honor.html">荣誉</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr style="border: 1px solid rgba(0, 0, 0, 0.1);margin: 3px 10px;" />
     </div>
+
+
 
     <!-- 左边增加白边，可以使用CSS优化 -->
     <div style="height:400px;width:100px;float:left;"><br></div>
 
     <!-- CSS -->
-    <div class="person_info" style="height:400px;width:300px;float:left;">
+    <!-- 左侧个人信息栏 -->
+    <!-- 记住删除边框样式border -->
+    <div class="person_info" style="border:2px solid black;width:300px;float:left;">
         <br><br>
         <img src="./images/base/头像.jpg" alt="显示失败" width="100" height="100" />
         <p>你可以通过以下方式联系我:<br></p>
+        <!-- 替换href中的邮箱、链接等个人信息地址 -->
+        <p><a href="mailto:aliykb@outlook.com?" target="_top">
+                发送邮件</a></p>
         <p><a href="https://github.com/Kaibo-Yang" target="_blank"><img src="./images/base/Github.png" alt="显示失败"
                     width="20" height="20" />Github</a></p>
     </div>
 
-    <div class="stackedit__html" style="height:400px;width:300px;float:left;">
+    <!-- 记住删除边框样式border -->
+    <div class="stackedit__html" style="border:2px solid black;float:left;">
         <h1>个人主页</h1>
         <p>我是 杨凯博，欢迎来到我的博客。</p>
         <img src="./images/testimg.png" alt="显示失败" />
     </div>
-
 
 </body>
 
